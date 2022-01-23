@@ -35,7 +35,8 @@ var coinstdh = Math.floor(Math.random() * 800) + 2000; //random coins khi làm c
 var coinspnl = Math.floor(Math.random() * 800001) + 500000; //random coins khi làm cave ở Phạm Ngũ Lão
 var coinsnht = Math.floor(Math.random() * 402001) + 200000; //random coins khi làm cave ở Nguyễn Huy Tự
 var rdcn = ['tuyển dụng nhân viên', 'quản trị khách sạn', 'tại nhà máy điện', 'đầu bếp trong nhà hàng', 'công nhân']; //random công việc khi làm ở khu công nghiệp
-var work1 = rdcn[Math.floor(Math.random() * rdcn.length)]; var rddv = ['sửa ống nước', 'sửa điều hòa cho hàng xóm', 'bán hàng đa cấp', 'phát tờ rơi', 'shipper', 'sửa máy vi tính', 'hướng dẫn viên du lịch', 'cho con bú']; //random công việc khi làm ở khu dịch vụ
+var work1 = rdcn[Math.floor(Math.random() * rdcn.length)]; 
+var rddv = ['sửa ống nước', 'sửa điều hòa cho hàng xóm', 'bán hàng đa cấp', 'phát tờ rơi', 'shipper', 'sửa máy vi tính', 'hướng dẫn viên du lịch', 'cho con bú']; //random công việc khi làm ở khu dịch vụ
 var work2 = rddv[Math.floor(Math.random() * rddv.length)]; 
 var rdmd = ['kiếm được 13 thùng dầu', 'kiếm được 8 thùng', 'kiếm được 9 thùng dầu', 'kiếm được 8 thùng dầu', 'ăn cướp dầu ', 'lấy nước đổ vô dầu rồi bán']; //random công việc khi làm ở mỏ dầu
 var work3 = rdmd[Math.floor(Math.random() * rdmd.length)];
